@@ -4,7 +4,7 @@ public class Main {
 
         double fuelСonsumption = 7.5;
         double volumeOfFuel = 67.0;
-        double distance = (int) Math.round(volumeOfFuel / fuelСonsumption);
+        double distance = (int) Math.floor(volumeOfFuel / fuelСonsumption);
 
         System.out.println(distance);
     }
